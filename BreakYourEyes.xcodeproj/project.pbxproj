@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0064DC3D2CB11F160032EBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0064DC232CB11F150032EBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0064DC2A2CB11F150032EBAD;
+			remoteInfo = BreakYourEyes;
+		};
+		0064DC472CB11F160032EBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0064DC232CB11F150032EBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0064DC2A2CB11F150032EBAD;
+			remoteInfo = BreakYourEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0064DC2B2CB11F150032EBAD /* BreakYourEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakYourEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0064DC3C2CB11F160032EBAD /* BreakYourEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakYourEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0064DC462CB11F160032EBAD /* BreakYourEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakYourEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0064DC2D2CB11F150032EBAD /* BreakYourEyes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreakYourEyes;
+			sourceTree = "<group>";
+		};
+		0064DC3F2CB11F160032EBAD /* BreakYourEyesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreakYourEyesTests;
+			sourceTree = "<group>";
+		};
+		0064DC492CB11F160032EBAD /* BreakYourEyesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreakYourEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0064DC282CB11F150032EBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC392CB11F160032EBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC432CB11F160032EBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0064DC222CB11F150032EBAD = {
+			isa = PBXGroup;
+			children = (
+				0064DC2D2CB11F150032EBAD /* BreakYourEyes */,
+				0064DC3F2CB11F160032EBAD /* BreakYourEyesTests */,
+				0064DC492CB11F160032EBAD /* BreakYourEyesUITests */,
+				0064DC2C2CB11F150032EBAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0064DC2C2CB11F150032EBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0064DC2B2CB11F150032EBAD /* BreakYourEyes.app */,
+				0064DC3C2CB11F160032EBAD /* BreakYourEyesTests.xctest */,
+				0064DC462CB11F160032EBAD /* BreakYourEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0064DC2A2CB11F150032EBAD /* BreakYourEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0064DC502CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyes" */;
+			buildPhases = (
+				0064DC272CB11F150032EBAD /* Sources */,
+				0064DC282CB11F150032EBAD /* Frameworks */,
+				0064DC292CB11F150032EBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0064DC2D2CB11F150032EBAD /* BreakYourEyes */,
+			);
+			name = BreakYourEyes;
+			packageProductDependencies = (
+			);
+			productName = BreakYourEyes;
+			productReference = 0064DC2B2CB11F150032EBAD /* BreakYourEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0064DC3B2CB11F160032EBAD /* BreakYourEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0064DC532CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyesTests" */;
+			buildPhases = (
+				0064DC382CB11F160032EBAD /* Sources */,
+				0064DC392CB11F160032EBAD /* Frameworks */,
+				0064DC3A2CB11F160032EBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0064DC3E2CB11F160032EBAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0064DC3F2CB11F160032EBAD /* BreakYourEyesTests */,
+			);
+			name = BreakYourEyesTests;
+			packageProductDependencies = (
+			);
+			productName = BreakYourEyesTests;
+			productReference = 0064DC3C2CB11F160032EBAD /* BreakYourEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0064DC452CB11F160032EBAD /* BreakYourEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0064DC562CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyesUITests" */;
+			buildPhases = (
+				0064DC422CB11F160032EBAD /* Sources */,
+				0064DC432CB11F160032EBAD /* Frameworks */,
+				0064DC442CB11F160032EBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0064DC482CB11F160032EBAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0064DC492CB11F160032EBAD /* BreakYourEyesUITests */,
+			);
+			name = BreakYourEyesUITests;
+			packageProductDependencies = (
+			);
+			productName = BreakYourEyesUITests;
+			productReference = 0064DC462CB11F160032EBAD /* BreakYourEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0064DC232CB11F150032EBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0064DC2A2CB11F150032EBAD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0064DC3B2CB11F160032EBAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0064DC2A2CB11F150032EBAD;
+					};
+					0064DC452CB11F160032EBAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0064DC2A2CB11F150032EBAD;
+					};
+				};
+			};
+			buildConfigurationList = 0064DC262CB11F150032EBAD /* Build configuration list for PBXProject "BreakYourEyes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0064DC222CB11F150032EBAD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0064DC2C2CB11F150032EBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0064DC2A2CB11F150032EBAD /* BreakYourEyes */,
+				0064DC3B2CB11F160032EBAD /* BreakYourEyesTests */,
+				0064DC452CB11F160032EBAD /* BreakYourEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0064DC292CB11F150032EBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC3A2CB11F160032EBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC442CB11F160032EBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0064DC272CB11F150032EBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC382CB11F160032EBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0064DC422CB11F160032EBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0064DC3E2CB11F160032EBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0064DC2A2CB11F150032EBAD /* BreakYourEyes */;
+			targetProxy = 0064DC3D2CB11F160032EBAD /* PBXContainerItemProxy */;
+		};
+		0064DC482CB11F160032EBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0064DC2A2CB11F150032EBAD /* BreakYourEyes */;
+			targetProxy = 0064DC472CB11F160032EBAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0064DC4E2CB11F160032EBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0064DC4F2CB11F160032EBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0064DC512CB11F160032EBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BreakYourEyes/BreakYourEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreakYourEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0064DC522CB11F160032EBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BreakYourEyes/BreakYourEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreakYourEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0064DC542CB11F160032EBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakYourEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreakYourEyes";
+			};
+			name = Debug;
+		};
+		0064DC552CB11F160032EBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakYourEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreakYourEyes";
+			};
+			name = Release;
+		};
+		0064DC572CB11F160032EBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BreakYourEyes;
+			};
+			name = Debug;
+		};
+		0064DC582CB11F160032EBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kvupa.BreakYourEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BreakYourEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0064DC262CB11F150032EBAD /* Build configuration list for PBXProject "BreakYourEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064DC4E2CB11F160032EBAD /* Debug */,
+				0064DC4F2CB11F160032EBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0064DC502CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064DC512CB11F160032EBAD /* Debug */,
+				0064DC522CB11F160032EBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0064DC532CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064DC542CB11F160032EBAD /* Debug */,
+				0064DC552CB11F160032EBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0064DC562CB11F160032EBAD /* Build configuration list for PBXNativeTarget "BreakYourEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064DC572CB11F160032EBAD /* Debug */,
+				0064DC582CB11F160032EBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0064DC232CB11F150032EBAD /* Project object */;
+}
