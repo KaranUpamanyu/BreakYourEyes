@@ -45,6 +45,11 @@
 			path = BreakYourEyesUITests;
 			sourceTree = "<group>";
 		};
+		0064DC712CB27B9B0032EBAD /* DMG */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DMG;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		0064DC222CB11F150032EBAD = {
 			isa = PBXGroup;
 			children = (
+				0064DC712CB27B9B0032EBAD /* DMG */,
 				0064DC2D2CB11F150032EBAD /* BreakYourEyes */,
 				0064DC3F2CB11F160032EBAD /* BreakYourEyesTests */,
 				0064DC492CB11F160032EBAD /* BreakYourEyesUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				0064DC2D2CB11F150032EBAD /* BreakYourEyes */,
+				0064DC712CB27B9B0032EBAD /* DMG */,
 			);
 			name = BreakYourEyes;
 			packageProductDependencies = (
